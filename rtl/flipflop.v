@@ -1,14 +1,17 @@
-module flipflop (clk,in,out);
-  input clk;
-  input in;
-  output out;  
+/*
+ * D-flipflop module, just show off some verilog
+ */
+module flipflop (
+  input      clk,
+  input      in,
+  output     out);
   
-  reg ff;
+  reg out_ff = 0;
   
-  assign out = ff;
+  assign out = out_ff;
   
   always @ (posedge clk)
   begin
-		ff <= in;
+		out_ff <= in;
   end
 endmodule
