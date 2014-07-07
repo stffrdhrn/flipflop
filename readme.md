@@ -9,11 +9,11 @@ much more_
  - Examples of using timing contraints
 
 ## Project Status/TODO
-Compiles
-Simulated manually
-TODO add testbench
-TODO add timing constraints
-TODO add placements
+ - Compiles
+ - Simulated manually
+ - Has top level block symbol file, for altera placements
+ - Has simple timing constraints
+ - TODO add testbench
 
 ## Project Setup
 This project has been developed with quartus II. 
