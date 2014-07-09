@@ -13,7 +13,8 @@ much more_
  - Simulated manually
  - Has top level block symbol file, for altera placements
  - Has simple timing constraints
- - TODO add testbench
+ - Has a simple testbench
+ - TODO create examples of how to develop using command line tools
 
 ## Project Setup
 This project has been developed with quartus II. 
